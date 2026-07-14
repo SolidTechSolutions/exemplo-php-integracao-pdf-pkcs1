@@ -1,0 +1,20 @@
+{
+    "name": "solidtech/exemplo-php-integracao-pdf-pkcs1",
+    "description": "SolidSign PAdES (PDF) signing example — PKCS#1 two-step flow (browser extension)",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "slim/slim": "^4.12",
+        "slim/psr7": "^1.6",
+        "guzzlehttp/guzzle": "^7.8",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "SolidSign\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
